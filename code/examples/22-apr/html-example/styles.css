@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* img {
+    display: block;
+} */
+
+p {
+    background-color: red;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: blue;
+    color: white;
+}
+
+ol {
+    width: 50%;
+}
+
+ol li {
+    width: 50%;
+    background-color: purple;
+}
+
+
+
+.green {
+    background-color: green;
+    text-align: right;
+}
+
+.warning {
+    background-color: red;
+    color: yellow;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.warning div {
+    font-size: 2em;
+}
+
+.fifty-percent {
+    width: 50%;
+    padding: 96px;
+}
+
+#cool-paragraph {
+    margin: 200px 100px 50px 25px;
+    padding: 24px;
+    border: 5px solid black;
+    color: magenta;
+    /* background-color: #3ee0cf; */
+    background-image: url("bert.gif");
+    width: 400px;
+    height: 400px;
+}

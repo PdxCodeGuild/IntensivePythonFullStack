@@ -1,0 +1,18 @@
+body {
+    background-color: maroon;
+    color: bisque;
+}
+
+.video {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .video {
+        display: block;
+    }
+
+    .alt-link {
+        display: none;
+    }
+}

@@ -1,0 +1,160 @@
+/* #8C4842 dark red
+#BFB39B sand
+#72734F mustard
+#498C66 green
+#284B59 dark blue */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #BFB39B;
+    color: #284B59;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+header, main, footer {
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+    background-color: #8C4842;
+    color: #BFB39B;
+}
+
+header h1 {
+    font-size: 2.75em;
+}
+
+header h1, header h3 {
+    margin: 0;
+}
+
+/* header p {
+    border: 1px solid #BFB39B;
+    border-radius: .5em;
+    padding: .25em;
+} */
+
+header a {
+    color: #BFB39B;
+    transition: all ease-in-out 125ms;
+    /* text-decoration: none; */
+}
+
+header a:hover {
+    text-shadow: 0 0 .25em white;
+    transition: all ease-in-out 125ms;
+}
+
+main p {
+    text-align: justify;
+    line-height: 1.25;
+
+}
+
+input[type="text"] {
+    background-color: aqua;
+}
+
+/* input:hover, select:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 40px black;
+} */
+
+#phone {
+    color: cornflowerblue;
+    background-color: coral;
+    width: 500px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    border-radius: 2em;
+}
+
+#phone:hover {
+    background-color: #8C4842;
+}
+
+#phone:focus {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
+
+#phone:active {
+    background-color: black;
+}
+
+#phone::placeholder {
+    color: white;
+}
+
+#phone:hover::placeholder {
+    color: black;
+}
+
+input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+@media (min-width: 750px) {
+    nav {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+    }
+
+    nav p {
+        margin: 1em;
+    }
+
+    header, main, footer {
+        padding: 2em;
+    }
+
+    header {
+        padding-right: 1em;
+    }
+
+    .flex-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        /* align-items: stretch; */
+        margin: 0 -1em;
+    }
+
+    .gallery-item {
+        width: 50%;
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 1100px) {
+    .gallery-item {
+        width: 33.333%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+}

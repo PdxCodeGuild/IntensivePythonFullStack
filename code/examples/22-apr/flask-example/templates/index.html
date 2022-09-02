@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello from Flask!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"/>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <p>Welcome to flask! Enjoy your bespoke HTML made to order</p>
+
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/kPRA0W1kECg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="alt-link">https://www.youtube.com/embed/kPRA0W1kECg</p>
+
+    <p>Hello {{name}}</p>
+
+    {% if temperature < 50 %}
+    <p>cold</p>
+    {% elif temperature < 80 %}
+    <p>warm</p>
+    {% else %}
+    <p>hot</p>
+    {% endif %}
+
+    <ul>
+    {% for num in nums %}
+    <li>{{num}}</li>
+    {% endfor %}
+    </ul>
+
+    <form action="" method="post">
+        <input type="text" name="input_text" placeholder="enter some text"/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
