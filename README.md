@@ -31,7 +31,7 @@ Presentation Day: Month Day, Year
 
 ## Django Labs Assigned:
 
-| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| Lab   | Name                   | Points Value | Date Assigned | Due By Start Of Class | Hard Due Date |
 | ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
 | 00    | Polls                  |              | Jun 8th       | Jun 13th              |               |
 | 01    | Todo List              | 20           | Jun 13th      | Jun 20th              | Jun 27th      |
@@ -42,7 +42,7 @@ Presentation Day: Month Day, Year
 
 ## JavaScript Labs Assigned:
 
-| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| Lab   | Name                   | Points Value | Date Assigned | Due By Start Of Class | Hard Due Date |
 | ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
 | 01A   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
 | 02A   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
@@ -58,19 +58,19 @@ Presentation Day: Month Day, Year
 
 ## HTML/CSS Labs Assigned:
 
-| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| Lab   | Name                   | Points Value | Date Assigned | Due By Start Of Class | Hard Due Date |
 | ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
-| 01    | Bio                    | 10             | May 23rd      | May 31st              | Jun 6th       |
-| 02    | Company Landing Page   | 10             | May 25th      | May 31st              | Jun 8th       |
-| 03    | Blog                   | 20             | May 26th      | May 31st              | Jun 9th       |
-| 04    | Burrito Order Form     | 10             | May 31st      | Jun 6th               | Jun 14th      |
-| Group | Flask Todos            | 10             | Jun 1st       | Jun 1st               | Jun 15th      |
-| 05    | Flask Redo             | 10             | Jun 2nd       | Jun 6th               | Jun 16th      |
-| 06    | Personal Portfolio     | 20             | Jun 3rd       | Jun 7th               | Jun 17th      |
+| 01    | Bio                    | 10           | May 23rd      | May 31st              | Jun 6th       |
+| 02    | Company Landing Page   | 10           | May 25th      | May 31st              | Jun 8th       |
+| 03    | Blog                   | 20           | May 26th      | May 31st              | Jun 9th       |
+| 04    | Burrito Order Form     | 10           | May 31st      | Jun 6th               | Jun 14th      |
+| Group | Flask Todos            | 10           | Jun 1st       | Jun 1st               | Jun 15th      |
+| 05    | Flask Redo             | 10           | Jun 2nd       | Jun 6th               | Jun 16th      |
+| 06    | Personal Portfolio     | 20           | Jun 3rd       | Jun 7th               | Jun 17th      |
 
 ## Python Labs Assigned:
 
-| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| Lab   | Name                   | Points Value | Date Assigned | Due By Start Of Class | Hard Due Date |
 | ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
 | 01    | Number To Phrase       | 10           | Apr 27th      | May 2nd               | May 11th      |
 | 02    | Blackjack Advice       | 10           | Apr 28th      | May 2nd               | May 12th      |
