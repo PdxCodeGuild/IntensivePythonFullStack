@@ -25,64 +25,65 @@ M-F H:MM am – H:MM pm
 
 ## Capstone Dates:
 
-Capstone proposal due: Month Day, Year
+Capstone proposal due: Month Day, Year  
 Presentation Day: Month Day, Year
 
 
 ## Django Labs Assigned:
 
-| Lab   | Name                   | Date Assigned | Due By Start Of Class | Hard Due Date |
-| ----- | ---------------------- | ------------- | --------------------- | ------------- |
-| 00    | Polls                  | Jun 8th       | Jun 13th              |               |
-| 01    | Todo List              | Jun 13th      | Jun 20th              | Jun 27th      |
-| 02    | URL Shortener          | Jun 15th      | Jun 20th              | Jun 27th      |
-| 03    | Chirp                  | Jun 21st      | Jun 27th              | Jul 5th       |
-| 04    | Students API           | Jul 14th      | Jul 20th              | Jul 28th      |
-| 05    | Pokedex                | Jul 15th      | Jul 20th              | Jul 29th      |
+| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
+| 00    | Polls                  |              | Jun 8th       | Jun 13th              |               |
+| 01    | Todo List              | 20           | Jun 13th      | Jun 20th              | Jun 27th      |
+| 02    | URL Shortener          | 20           | Jun 15th      | Jun 20th              | Jun 27th      |
+| 03    | Chirp                  | 30           | Jun 21st      | Jun 27th              | Jul 5th       |
+| 04    | Students API           | 10           | Jul 14th      | Jul 20th              | Jul 28th      |
+| 05    | Pokedex                | 30           | Jul 15th      | Jul 20th              | Jul 29th      |
 
 ## JavaScript Labs Assigned:
 
-| Lab   | Name                   | Date Assigned | Due By Start Of Class | Hard Due Date |
-| ----- | ---------------------- | ------------- | --------------------- | ------------- |
-| 01    | Pick 3                 | Jun 27th      | Jul 5th               | Jul 11th      |
-| 02    | Pick 3                 | Jun 27th      | Jul 5th               | Jul 11th      |
-| 03    | Pick 3                 | Jun 27th      | Jul 5th               | Jul 11th      |
-| Group | Todo List              | Jul 1st       | Jul 5th               | Jul 15th      |
-| 04    | Vue Todos              | Jul 5th       | Jul 11th              | Jul 19th      |
-| 05    | Quotes in Vue          | Jul 7th       | Jul 11th              | Jul 21st      |
-| 06    | Mini-Capstone          | Jul 11th      | Jul 14th              | Jul 25th      |
+| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
+| 01A   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| 02A   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| 03A   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| 01B   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| 02B   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| 03B   | Pick 3                 | 10           | Jun 27th      | Jul 5th               | Jul 11th      |
+| Group | Todo List              | 10           | Jul 1st       | Jul 5th               | Jul 15th      |
+| 04    | Vue Todos              | 15           | Jul 5th       | Jul 11th              | Jul 19th      |
+| 05    | Quotes in Vue          | 20           | Jul 7th       | Jul 11th              | Jul 21st      |
+| 06    | Mini-Capstone          | 30           | Jul 11th      | Jul 14th              | Jul 25th      |
 
 
 ## HTML/CSS Labs Assigned:
 
-| Lab   | Name                   | Date Assigned | Due By Start Of Class | Hard Due Date |
-| ----- | ---------------------- | ------------- | --------------------- | ------------- |
-| 01    | Bio                    | May 23rd      | May 31st              | Jun 6th       |
-| 02    | Company Landing Page   | May 25th      | May 31st              | Jun 8th       |
-| 03    | Blog                   | May 26th      | May 31st              | Jun 9th       |
-| 04    | Burrito Order Form     | May 31st      | Jun 6th               | Jun 14th      |
-| Group | Flask Todos            | Jun 1st       | Jun 1st               | Jun 15th      |
-| 05    | Flask Redo             | Jun 2nd       | Jun 6th               | Jun 16th      |
-| 06    | Personal Portfolio     | Jun 3rd       | Jun 7th               | Jun 17th      |
+| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
+| 01    | Bio                    | 10             | May 23rd      | May 31st              | Jun 6th       |
+| 02    | Company Landing Page   | 10             | May 25th      | May 31st              | Jun 8th       |
+| 03    | Blog                   | 20             | May 26th      | May 31st              | Jun 9th       |
+| 04    | Burrito Order Form     | 10             | May 31st      | Jun 6th               | Jun 14th      |
+| Group | Flask Todos            | 10             | Jun 1st       | Jun 1st               | Jun 15th      |
+| 05    | Flask Redo             | 10             | Jun 2nd       | Jun 6th               | Jun 16th      |
+| 06    | Personal Portfolio     | 20             | Jun 3rd       | Jun 7th               | Jun 17th      |
 
 ## Python Labs Assigned:
 
-| Lab   | Name                   | Date Assigned | Due By Start Of Class | Hard Due Date |
-| ----- | ---------------------- | ------------- | --------------------- | ------------- |
-| 01    | Unit Converter         | Apr 26th      | May 2nd               | May 10th      |
-| 02    | Number To Phrase       | Apr 27th      | May 2nd               | May 11th      |
-| 03    | Blackjack Advice       | Apr 28th      | May 2nd               | May 12th      |
-| 04    | Pick 6                 | Apr 28th      | May 2nd               | May 12th      |
-| 05    | Credit Card Validation | May 2nd       | May 9th               | May 16th      |
-| 06    | ROT13                  | May 2nd       | May 9th               | May 16th      |
-| Group | Jackalope              | May 3rd       | May 3rd               | May 17th      |
-| 07    | ARI                    | May 4th       | May 9th               | May 18th      |
-| 08    | Contact List           | May 5th       | May 9th               | May 19th      |
-| 09    | ATM                    | May 9th       | May 16th              | May 23rd      |
-| 10    | Tic-Tac-Toe            | May 10th      | May 16th              | May 24th      |
-| 11    | Dad Joke API           | May 12th      | May 16th              | May 26th      |
-| 12    | Quotes API             | May 16th      | May 23rd              | May 30th      |
-| 13    | Mini-Capstone          | May 18th      | May 23rd              | Jun 1st       |
+| Lab   | Name                   | Points Worth | Date Assigned | Due By Start Of Class | Hard Due Date |
+| ----- | ---------------------- | ------------ | ------------- | --------------------- | ------------- |
+| 01    | Number To Phrase       | 10           | Apr 27th      | May 2nd               | May 11th      |
+| 02    | Blackjack Advice       | 10           | Apr 28th      | May 2nd               | May 12th      |
+| 03    | Pick 6                 | 10           | Apr 28th      | May 2nd               | May 12th      |
+| 04    | Credit Card Validation | 5            | May 2nd       | May 9th               | May 16th      |
+| 05    | ROT13                  | 5            | May 2nd       | May 9th               | May 16th      |
+| Group | Jackalope              | 10           | May 3rd       | May 3rd               | May 17th      |
+| 06    | ARI                    | 10           | May 4th       | May 9th               | May 18th      |
+| 07    | Contact List           | 25           | May 5th       | May 9th               | May 19th      |
+| 08    | ATM                    | 10           | May 9th       | May 16th              | May 23rd      |
+| 09    | Dad Joke API           | 5            | May 12th      | May 16th              | May 26th      |
+| 10    | Quotes API             | 20           | May 16th      | May 23rd              | May 30th      |
+| 11    | Mini-Capstone          | 30           | May 18th      | May 23rd              | Jun 1st       |
 
 
 ## Student Presentations
