@@ -87,7 +87,7 @@ if 'apple' in fruits:
     print('apple ' + str(fruits['apple'])) # 'apple 1.0'
 ```
 
-## Combining Dictionaries: `dict1.update(dict2)`
+## Combining Dictionaries: Update Method `dict1.update(dict2)`
 
 To combine two dictionaries, use the `.update()` type method. Note that it changes the given dict and does not return a new one.
 
@@ -95,6 +95,26 @@ To combine two dictionaries, use the `.update()` type method. Note that it chang
 fruits = {'apple': 1.0, 'pear': 1.5, 'grapes': 0.75}
 fruits.update({'banana': 0.25})
 fruits  #> {'apple': 1.0, 'pear': 1.5, 'banana': 0.25, 'grapes': 0.75}
+```
+
+## Combining Dictionaries: Dictionary Merge Operator `dict1 | dict2`
+
+The dictionary merge operator | creates a new dictionary that is the result of merging two existing dictionaries. If keys in the first dictionary are also present in the second dictionary, the values from the second dictionary will be used in the resulting merged dictionary.
+
+```python
+fruits = {'apple': 1.0, 'pear': 1.5, 'grapes': 0.75}
+combined_fruits = fruits | {'banana': 0.25})
+combined_fruits  #> {'apple': 1.0, 'pear': 1.5, 'grapes': 0.75, 'banana': 0.25 }
+```
+
+## Combining Dictionaries: Dictionary Update Operator `dict1 |= dict2`
+
+The dictionary update operator |= updates an existing dictionary in place by merging it with another dictionary. If keys in the first dictionary are also present in the second dictionary, their values will be updated with the values from the second dictionary.
+
+```python
+fruits = {'apple': 1.0, 'pear': 1.5, 'grapes': 0.75}
+fruits |= {'grapes': 1, 'banana': 0.25})
+fruits  #> {'apple': 1.0, 'pear': 1.5, 'grapes': 1, 'banana': 0.25 }
 ```
 
 ## Retrieving Keys and Values
@@ -109,11 +129,17 @@ list(fruits.items())  #> [('grapes', 0.75), ('apple', 1.0), ('pear', 1.5)]
 
 ## Order
 
-Dictionaries are unordered; there is no guarantee the same order will come out at each call. Call `sorted()` on the results if you need a stable order.
+Dictionary order is guaranteed to be insertion order. Note that updating a key does not affect the order.
+
 
 ```python
-sorted(fruits.keys())  #> ['apple', 'grapes', 'pear']
+fruits = {'apple': 1.0}
+fruits['pear'] = 1.5
+fruits['grapes'] = .75
+
+print(grapes) # {'apple': 1.0, 'pear': 1.5, 'grapes': 0.75}
 ```
+> In python versions older than 3.7 dictionaries are unordered.
 
 ## Conversions
 
