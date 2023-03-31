@@ -1,5 +1,5 @@
 
-# Booleans, Comparisons, and Conditionals
+# Booleans, Comparisons, Conditionals and Pattern Matching
 
 - [Booleans](#booleans)
   - [And: `and`](#and-and)
@@ -14,6 +14,7 @@
   - [Short-Circuited Evaluation](#short-circuited-evaluation)
   - [Shorthand: `x if c else y`](#shorthand-x-if-c-else-y)
   - [Truthy and Falsey](#truthy-and-falsey)
+- [Pattern Matching](#pattern-matching)
 
 ## Booleans
 
@@ -215,4 +216,59 @@ for value in values:
 > {'a':1} is truthy
 
 
+## Pattern Matching
 
+Pattern Matching allows you to match patterns in data structures and execute code based on the shape and contents of the data. Structural pattern matching is inspired by similar features in other programming languages like Haskell, Rust, and Scala.
+
+### The `match` statement
+
+The match statement is used to initiate a pattern matching block. It specifies the value or expression to be matched against a series of patterns defined by case blocks. 
+
+### `case` blocks
+
+`case` blocks define the patterns to be matched and the code to be executed when a match is found. A `case` block is introduced by the `case` keyword, followed by a pattern and a colon. Patterns can be simple literals, sequences, mappings, class instances, and more. Variables can be used in patterns to capture and destructure data.
+
+```python
+num = 2
+
+match num:
+    case 1:
+        print("The number was one")
+    case 2: # This case statement matches the value of num
+        print("The number was two")
+    case 3:
+        print("The number was three")
+```
+> The number was two
+
+In addition to the basic pattern, a case block can include a guard condition introduced by the if keyword. The guard condition further refines the match and allows for additional checks.
+
+```python
+temp = 72
+
+match temp:
+    case x if x > 80:
+        print("It's hot.")
+    case x if x >= 70:
+        print("It's perfect.")
+    case x if x < 70:
+        print("It's cold.")
+```
+
+> It's perfect.
+
+The underscore _ is used as a catch-all pattern that matches anything, and it is typically used as the last case block to handle cases that don't match any of the specific patterns.
+
+```python
+temp = 45
+
+match temp:
+    case x if x > 80:
+        print("It's hot.")
+    case x if x >= 70:
+        print("It's perfect.")
+    case _:
+        print("It's cold.")
+```
+
+> "It's cold."
